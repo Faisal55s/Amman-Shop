@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منتجاتنا - Amman Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- رأس الصفحة -->
+    <header>
+        <div class="logo">
+            <h1>Amman Shop</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">الصفحة الرئيسية</a></li>
+                <li><a href="products.html" class="active">المنتجات</a></li>
+                <li><a href="about.html">عن المتجر</a></li>
+                <li><a href="contact.html">اتصل بنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- قسم المنتجات -->
+    <section class="products">
+        <h2>منتجاتنا</h2>
+        <div class="product-list" id="product-list">
+            <!-- المنتجات سيتم توليدها بواسطة JavaScript -->
+        </div>
+    </section>
+
+    <!-- السلة -->
+    <section class="cart">
+        <h2>سلة التسوق</h2>
+        <div id="cart-items"></div>
+        <p><strong>الإجمالي:</strong> <span id="total-price">0</span> JOD</p>
+        <button id="checkout-btn">إتمام الشراء</button>
+    </section>
+
+    <!-- الفوتر -->
+    <footer>
+        <p>© 2024 Amman Shop. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <script src="script1.js"></script>
+</body>
+</html>

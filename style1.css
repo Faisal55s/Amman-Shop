@@ -1,0 +1,90 @@
+/* تنسيق عام */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    direction: rtl;
+    text-align: right;
+}
+
+/* رأس الصفحة */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a.active {
+    border-bottom: 2px solid #28a745;
+}
+
+/* قسم اتصل بنا */
+.contact {
+    padding: 20px;
+    background-color: white;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact input, .contact textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact button:hover {
+    background-color: #218838;
+}
+
+/* الفوتر */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
