@@ -2,7 +2,7 @@
 // إعدادات قاعدة البيانات
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "Faisal123r4";
 $dbname = "contact_form";
 
 // إنشاء اتصال بقاعدة البيانات
