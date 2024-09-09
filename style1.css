@@ -10,7 +10,7 @@ body {
 
 /* رأس الصفحة */
 header {
-    background-color: #333;
+    background-color: #02351c;
     color: white;
     padding: 10px 20px;
     display: flex;
@@ -21,6 +21,11 @@ header {
 header .logo h1 {
     margin: 0;
 }
+
+header .logo img {
+    width: 50px;
+    margin-right: 10px;
+}    
 
 header nav ul {
     list-style: none;
@@ -83,7 +88,7 @@ header nav ul li a.active {
 
 /* الفوتر */
 footer {
-    background-color: #333;
+    background-color: #02351c;
     color: white;
     text-align: center;
     padding: 10px 0;
